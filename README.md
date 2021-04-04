@@ -27,7 +27,7 @@ To elaborate this solution I made some assumptions based on the available data:
 
 1. Exempt items are only the ones stated in the inputs. There is no mechanism in place to make the script understand if an item is food or a medicine if it's not used in the provided input. But a new exempt item or category can be easily added without breaking anything.
 2. I expect input to be always a multiline string having a product for each row.
-3. Each product in the input should be written using the `quantity | name | "at" | price schema`. Words are separated by spaces.
+3. Each product in the input should be written using the `quantity | name | "at" | price` schema. Words are separated by spaces.
 4. If a product is imported the product name in the output should always begin with **imported**
 
 ## Tests
